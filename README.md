@@ -15,3 +15,6 @@ My submission for DATASTUDIES.3250.01 at Washington University in St. Louis
 
 ```gif_maker.R```
 > An R script that reads images from a directory and turns them into a gif using "magick" packages. 
+
+![](https://github.com/rjuncu/DATASTUDIES.3250.01/blob/d91b067bcccf7f92458507d16378459b1d246bbc/US_maps.gif)
+![](https://github.com/rjuncu/DATASTUDIES.3250.01/blob/d91b067bcccf7f92458507d16378459b1d246bbc/Advertisements.gif)
