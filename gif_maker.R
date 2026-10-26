@@ -1,6 +1,6 @@
-install.packages("readr")
-install.packages("magick")
-install.packages("dplyr")
+#install.packages("readr")
+#install.packages("magick")
+#install.packages("dplyr")
 library(readr)
 library(magick)
 library(dplyr)
@@ -42,13 +42,6 @@ gif <- image_animate(
 
 # Save GIF
 image_write(gif, "US_maps.gif")
-
-
-
-
-
-
-
 
 
 
