@@ -1,0 +1,313 @@
+"race","state","fips","rate","lower_ci","upper_ci","count"
+"All","Minnesota",27,22.5,22,23,7776
+"All","Iowa",19,21.6,20.9,22.3,4321
+"All","Florida",12,21.6,21.4,21.8,32996
+"All","Connecticut",9,21,20.4,21.6,4882
+"All","New Jersey",34,20.9,20.5,21.2,11876
+"All","Wisconsin",55,20.7,20.3,21.2,7730
+"All","New York",36,20.3,20,20.6,25107
+"All","New Hampshire",33,20.1,19.2,21.1,1894
+"All","Kentucky",21,19.6,19.1,20.1,5394
+"All","Maine",23,19.4,18.5,20.3,1951
+"All","West Virginia",54,19.2,18.5,20.1,2425
+"All","Vermont",50,19,17.7,20.4,875
+"All","South Dakota",46,18.9,17.7,20.1,1035
+"All","Washington",53,18.9,18.5,19.4,8496
+"All","Missouri",29,18.9,18.5,19.4,7277
+"All","Ohio",39,18.9,18.6,19.2,14032
+"All","Illinois",17,18.8,18.4,19.1,14337
+"All","Pennsylvania",42,18.8,18.5,19.1,16266
+"All","Idaho",16,18.7,17.8,19.5,2030
+"All","Louisiana",22,18.7,18.2,19.3,5068
+"All","Kansas",20,18.7,18.1,19.4,3259
+"All","Nebraska",31,18.6,17.8,19.5,2131
+"All","Rhode Island",44,18.6,17.6,19.6,1314
+"All","North Dakota",38,18.6,17.3,19.9,834
+"All","Michigan",26,18.6,18.2,18.9,11865
+"All","Utah",49,18.5,17.8,19.2,2707
+"All","Massachusetts",25,18.5,18.1,18.9,8123
+"All","Indiana",18,18.3,17.9,18.7,7341
+"All","Alaska",2,18.3,16.8,19.8,666
+"All","California",6,18.1,18,18.3,40189
+"All","North Carolina",37,18,17.7,18.4,11327
+"All","Oregon",41,17.8,17.3,18.3,4786
+"All","Arkansas",5,17.8,17.2,18.4,3333
+"All","Texas",48,17.6,17.4,17.9,26127
+"All","Delaware",10,17.5,16.5,18.6,1161
+"All","Oklahoma",40,17.4,16.8,17.9,4031
+"All","Montana",30,17.4,16.4,18.4,1265
+"All","Georgia",13,17.3,16.9,17.6,10102
+"All","Maryland",24,17.3,16.9,17.7,6341
+"All","Tennessee",47,17.1,16.7,17.5,7140
+"All","Colorado",8,16.3,15.8,16.8,5204
+"All","Virginia",51,16.2,15.8,16.6,8266
+"All","Mississippi",28,16,15.4,16.7,2833
+"All","Wyoming",56,15.8,14.5,17.2,560
+"All","South Carolina",45,15.7,15.2,16.1,5085
+"All","District of Columbia",11,15.5,14.2,16.9,527
+"All","Arizona",4,15.2,14.9,15.6,6950
+"All","Hawaii",15,14.7,14,15.6,1439
+"All","Alabama",1,14.2,13.7,14.6,4384
+"All","Nevada",32,14.2,13.6,14.8,2600
+"All","New Mexico",35,14.1,13.5,14.8,1911
+"All","Puerto Rico",72,13.4,12.9,13.9,3087
+"NH Black","Minnesota",27,18,15.6,20.8,238
+"NH Black","Iowa",19,17.7,13.5,22.7,73
+"NH Black","Wisconsin",55,16.9,14.8,19.1,263
+"NH Black","Utah",49,16.9,8.8,28.6,19
+"NH Black","Connecticut",9,16.8,15,18.8,324
+"NH Black","Rhode Island",44,16.4,12.1,21.6,52
+"NH Black","Florida",12,16.1,15.5,16.8,2762
+"NH Black","Arkansas",5,15.3,13.6,17,353
+"NH Black","Kentucky",21,15.3,13.5,17.3,279
+"NH Black","California",6,14.9,14.2,15.6,1924
+"NH Black","Washington",53,14.7,12.7,17,216
+"NH Black","Delaware",10,14.6,12.3,17,166
+"NH Black","New York",36,14.4,13.8,15,2391
+"NH Black","New Jersey",34,14.4,13.5,15.4,944
+"NH Black","Louisiana",22,14.3,13.4,15.2,1051
+"NH Black","Missouri",29,14.3,13.1,15.7,520
+"NH Black","Oklahoma",40,14.2,12.3,16.4,208
+"NH Black","Nebraska",31,14,10.6,18.3,62
+"NH Black","Michigan",26,14,13.1,14.9,1034
+"NH Black","Texas",48,13.9,13.3,14.5,2342
+"NH Black","District of Columbia",11,13.8,12.1,15.7,240
+"NH Black","Maryland",24,13.8,13.1,14.6,1393
+"NH Black","Kansas",20,13.8,11.3,16.6,121
+"NH Black","Illinois",17,13.8,13,14.6,1327
+"NH Black","Indiana",18,13.7,12.3,15.1,421
+"NH Black","Pennsylvania",42,13.4,12.5,14.3,970
+"NH Black","North Carolina",37,13.4,12.7,14.1,1583
+"NH Black","Ohio",39,13.4,12.6,14.3,1049
+"NH Black","Georgia",13,13.3,12.7,13.9,2184
+"NH Black","Colorado",8,13.1,10.9,15.6,141
+"NH Black","New Mexico",35,12.8,8.6,18.3,32
+"NH Black","Massachusetts",25,12.6,11.3,14.1,333
+"NH Black","Mississippi",28,12.4,11.4,13.4,682
+"NH Black","South Carolina",45,12.2,11.4,13.1,890
+"NH Black","Virginia",51,12.2,11.5,13,1132
+"NH Black","Nevada",32,11.6,9.9,13.6,173
+"NH Black","Tennessee",47,11.5,10.6,12.5,636
+"NH Black","West Virginia",54,11.5,8.1,15.8,41
+"NH Black","Alabama",1,10.9,10.1,11.7,762
+"NH Black","Arizona",4,10.8,9.2,12.7,178
+"NH Black","Hawaii",15,10.7,6,17.6,16
+"NH Black","Oregon",41,9.9,6.9,13.6,41
+"NH Black","Alaska",2,NA,NA,NA,NA
+"NH Black","Montana",30,NA,NA,NA,NA
+"NH Black","New Hampshire",33,NA,NA,NA,NA
+"NH Black","Maine",23,NA,NA,NA,NA
+"NH Black","Wyoming",56,NA,NA,NA,NA
+"NH Black","Puerto Rico",72,NA,NA,NA,NA
+"NH Black","Idaho",16,NA,NA,NA,NA
+"NH Black","North Dakota",38,NA,NA,NA,NA
+"NH Black","Vermont",50,NA,NA,NA,NA
+"NH Black","South Dakota",46,NA,NA,NA,NA
+"Hispanic","Hawaii",15,24.2,18.2,31.3,77
+"Hispanic","Connecticut",9,22.7,20.6,24.9,498
+"Hispanic","Minnesota",27,22.5,18.9,26.6,186
+"Hispanic","Utah",49,20.7,18,23.7,272
+"Hispanic","Florida",12,20.6,20.1,21.1,6032
+"Hispanic","New Jersey",34,19.5,18.5,20.6,1598
+"Hispanic","Wisconsin",55,19.5,16.7,22.6,224
+"Hispanic","Rhode Island",44,19.4,15.8,23.5,117
+"Hispanic","Pennsylvania",42,18.7,17.1,20.4,604
+"Hispanic","New York",36,18.6,18,19.3,3295
+"Hispanic","Georgia",13,18.4,16.6,20.2,573
+"Hispanic","Idaho",16,18.2,14.7,22.2,122
+"Hispanic","Washington",53,17.7,16,19.6,479
+"Hispanic","California",6,17.6,17.3,18,10299
+"Hispanic","Illinois",17,17.5,16.6,18.5,1420
+"Hispanic","Alaska",2,17.4,10,27.5,21
+"Hispanic","Texas",48,17.2,16.8,17.7,7171
+"Hispanic","Delaware",10,17,12.5,22.5,57
+"Hispanic","Nebraska",31,16.8,13.2,20.9,99
+"Hispanic","District of Columbia",11,16.7,12,22.5,49
+"Hispanic","Michigan",26,16.2,14.2,18.4,279
+"Hispanic","South Dakota",46,16.1,8,28.3,16
+"Hispanic","Massachusetts",25,16.1,14.6,17.7,498
+"Hispanic","Kansas",20,16.1,13.6,19,171
+"Hispanic","Arizona",4,15.9,14.9,16.9,1214
+"Hispanic","Arkansas",5,15.7,12.5,19.5,109
+"Hispanic","North Carolina",37,15.7,14,17.5,459
+"Hispanic","Indiana",18,15.4,13.3,17.7,235
+"Hispanic","Oregon",41,15,13,17.3,259
+"Hispanic","Iowa",19,15,11.6,19,85
+"Hispanic","Colorado",8,15,13.8,16.2,659
+"Hispanic","Maryland",24,14.8,13.1,16.7,331
+"Hispanic","Wyoming",56,14.8,9.7,21.5,29
+"Hispanic","Ohio",39,13.5,11.6,15.6,217
+"Hispanic","Virginia",51,13.5,11.9,15.2,360
+"Hispanic","New Mexico",35,13.3,12.3,14.4,650
+"Hispanic","Missouri",29,12.8,10.5,15.5,124
+"Hispanic","Kentucky",21,12.7,9.7,16.2,82
+"Hispanic","Nevada",32,12.5,11.1,13.9,379
+"Hispanic","Oklahoma",40,12.4,10.2,14.8,153
+"Hispanic","South Carolina",45,12.2,10,14.8,128
+"Hispanic","New Hampshire",33,12,7,18.8,21
+"Hispanic","Louisiana",22,11.3,9.4,13.3,140
+"Hispanic","Tennessee",47,10.6,8.7,12.8,145
+"Hispanic","Alabama",1,10.3,7.8,13.2,79
+"Hispanic","Montana",30,9.7,5.5,15.9,17
+"Hispanic","Mississippi",28,8.2,5.2,12.2,28
+"Hispanic","Maine",23,NA,NA,NA,NA
+"Hispanic","West Virginia",54,NA,NA,NA,NA
+"Hispanic","Vermont",50,NA,NA,NA,NA
+"Hispanic","Puerto Rico",72,NA,NA,NA,NA
+"Hispanic","North Dakota",38,NA,NA,NA,NA
+"NH AI/AN","North Dakota",38,26.3,17.4,37.7,32
+"NH AI/AN","Nebraska",31,22.4,12.5,36.8,17
+"NH AI/AN","Oklahoma",40,22.3,20,24.8,363
+"NH AI/AN","Wisconsin",55,21.6,16.1,28.3,59
+"NH AI/AN","Washington",53,19.8,16.1,24.1,111
+"NH AI/AN","Minnesota",27,19,13.9,25.3,53
+"NH AI/AN","Montana",30,18.7,13.5,25.1,49
+"NH AI/AN","Michigan",26,18.1,13.9,23.3,68
+"NH AI/AN","Florida",12,17.5,13.5,22.5,72
+"NH AI/AN","California",6,17.2,14.9,19.9,211
+"NH AI/AN","South Dakota",46,16.2,11.2,22.6,39
+"NH AI/AN","Texas",48,16,12.9,19.7,100
+"NH AI/AN","Oregon",41,15.6,11.4,20.8,49
+"NH AI/AN","Alaska",2,14.7,11.4,18.7,74
+"NH AI/AN","Arkansas",5,14.4,8.7,22.4,21
+"NH AI/AN","Pennsylvania",42,12.6,7,20.9,16
+"NH AI/AN","New Mexico",35,12.5,10.3,15.1,115
+"NH AI/AN","Colorado",8,12.3,7.9,18.2,28
+"NH AI/AN","Missouri",29,11.5,7,18,21
+"NH AI/AN","North Carolina",37,10.8,8.4,13.8,72
+"NH AI/AN","Arizona",4,10.7,8.9,12.7,136
+"NH AI/AN","Virginia",51,10.5,5.9,17.6,17
+"NH AI/AN","Georgia",13,10.1,5.7,16.6,17
+"NH AI/AN","Nevada",32,9.6,5.4,15.9,16
+"NH AI/AN","South Carolina",45,NA,NA,NA,NA
+"NH AI/AN","Tennessee",47,NA,NA,NA,NA
+"NH AI/AN","Wyoming",56,NA,NA,NA,NA
+"NH AI/AN","Utah",49,NA,NA,NA,NA
+"NH AI/AN","Massachusetts",25,NA,NA,NA,NA
+"NH AI/AN","Connecticut",9,NA,NA,NA,NA
+"NH AI/AN","District of Columbia",11,NA,NA,NA,NA
+"NH AI/AN","Illinois",17,NA,NA,NA,NA
+"NH AI/AN","Kansas",20,NA,NA,NA,NA
+"NH AI/AN","Kentucky",21,NA,NA,NA,NA
+"NH AI/AN","New Hampshire",33,NA,NA,NA,NA
+"NH AI/AN","New Jersey",34,NA,NA,NA,NA
+"NH AI/AN","New York",36,NA,NA,NA,NA
+"NH AI/AN","Ohio",39,NA,NA,NA,NA
+"NH AI/AN","Rhode Island",44,NA,NA,NA,NA
+"NH AI/AN","Puerto Rico",72,NA,NA,NA,NA
+"NH AI/AN","Vermont",50,NA,NA,NA,NA
+"NH AI/AN","West Virginia",54,NA,NA,NA,NA
+"NH AI/AN","Delaware",10,NA,NA,NA,NA
+"NH AI/AN","Hawaii",15,NA,NA,NA,NA
+"NH AI/AN","Idaho",16,NA,NA,NA,NA
+"NH AI/AN","Indiana",18,NA,NA,NA,NA
+"NH AI/AN","Iowa",19,NA,NA,NA,NA
+"NH AI/AN","Louisiana",22,NA,NA,NA,NA
+"NH AI/AN","Maine",23,NA,NA,NA,NA
+"NH AI/AN","Maryland",24,NA,NA,NA,NA
+"NH AI/AN","Alabama",1,NA,NA,NA,NA
+"NH AI/AN","Mississippi",28,NA,NA,NA,NA
+"NH White","New Jersey",34,22.7,22.2,23.2,8553
+"NH White","Minnesota",27,22.6,22.1,23.2,7078
+"NH White","Florida",12,22.4,22.1,22.7,23200
+"NH White","New York",36,22.2,21.9,22.5,17702
+"NH White","Iowa",19,21.7,21,22.4,4078
+"NH White","Connecticut",9,21.2,20.6,22,3910
+"NH White","Wisconsin",55,21,20.4,21.5,7082
+"NH White","Louisiana",22,20.9,20.2,21.6,3791
+"NH White","New Hampshire",33,20.4,19.4,21.4,1816
+"NH White","Kentucky",21,20,19.4,20.6,4964
+"NH White","Illinois",17,19.9,19.5,20.2,10911
+"NH White","West Virginia",54,19.7,18.9,20.5,2357
+"NH White","Ohio",39,19.6,19.2,19.9,12421
+"NH White","Alaska",2,19.6,17.9,21.5,513
+"NH White","Missouri",29,19.5,19,19.9,6498
+"NH White","Washington",53,19.4,18.9,19.8,7034
+"NH White","California",6,19.3,19.1,19.6,21696
+"NH White","Maine",23,19.3,18.4,20.3,1893
+"NH White","Pennsylvania",42,19.2,18.9,19.6,14195
+"NH White","North Carolina",37,19.2,18.8,19.6,8956
+"NH White","Michigan",26,19.1,18.7,19.5,10136
+"NH White","South Dakota",46,19.1,17.9,20.4,966
+"NH White","Massachusetts",25,19.1,18.7,19.6,6934
+"NH White","Vermont",50,19.1,17.8,20.6,852
+"NH White","Maryland",24,19,18.4,19.6,4239
+"NH White","Rhode Island",44,18.8,17.6,20,1117
+"NH White","Kansas",20,18.8,18.1,19.5,2806
+"NH White","Idaho",16,18.8,17.9,19.7,1854
+"NH White","North Dakota",38,18.7,17.4,20.1,785
+"NH White","Indiana",18,18.7,18.2,19.2,6549
+"NH White","Nebraska",31,18.7,17.9,19.6,1912
+"NH White","Texas",48,18.6,18.3,18.9,15457
+"NH White","Georgia",13,18.6,18.2,19.1,6994
+"NH White","Utah",49,18.4,17.6,19.2,2315
+"NH White","Arkansas",5,18,17.4,18.8,2791
+"NH White","Tennessee",47,18,17.5,18.4,6211
+"NH White","Oregon",41,18,17.4,18.6,4226
+"NH White","District of Columbia",11,17.9,15.5,20.5,215
+"NH White","Delaware",10,17.9,16.7,19.2,904
+"NH White","Mississippi",28,17.8,17,18.6,2102
+"NH White","Montana",30,17.5,16.5,18.6,1188
+"NH White","Oklahoma",40,17.3,16.7,17.9,3204
+"NH White","Hawaii",15,17.3,15.5,19.2,419
+"NH White","Virginia",51,17.2,16.8,17.7,6252
+"NH White","South Carolina",45,16.6,16.1,17.2,3981
+"NH White","Colorado",8,16.5,16,17.1,4203
+"NH White","Wyoming",56,16,14.6,17.5,519
+"NH White","Arizona",4,15.7,15.2,16.2,5216
+"NH White","Nevada",32,15.4,14.6,16.1,1801
+"NH White","Alabama",1,15,14.4,15.5,3438
+"NH White","New Mexico",35,14.4,13.5,15.4,1047
+"NH White","Puerto Rico",72,NA,NA,NA,NA
+"NH API","Nebraska",31,18.6,12.6,26.2,36
+"NH API","Utah",49,16.4,12.6,20.9,73
+"NH API","Oklahoma",40,15.9,12.1,20.4,67
+"NH API","Kentucky",21,15.2,10.8,20.8,44
+"NH API","Minnesota",27,14.7,12.3,17.5,150
+"NH API","Washington",53,14.6,13.4,15.9,573
+"NH API","California",6,14.2,13.8,14.6,5297
+"NH API","New Mexico",35,14.2,9.4,20.7,29
+"NH API","Kansas",20,14.1,10.4,18.7,52
+"NH API","New York",36,13.9,13.2,14.6,1413
+"NH API","Oregon",41,13.6,11.4,16,149
+"NH API","Iowa",19,13.5,9.2,19.1,38
+"NH API","Illinois",17,13.4,12.3,14.7,534
+"NH API","Hawaii",15,13.4,12.5,14.3,902
+"NH API","Wisconsin",55,13.3,10.3,16.7,81
+"NH API","Alaska",2,13.3,9.3,18.6,38
+"NH API","New Jersey",34,13.1,12.1,14.2,630
+"NH API","Alabama",1,13.1,9.5,17.5,49
+"NH API","Maryland",24,13.1,11.7,14.7,302
+"NH API","Texas",48,13.1,12.3,14.1,953
+"NH API","Idaho",16,12.9,7.7,20.2,20
+"NH API","Florida",12,12.9,11.7,14.1,506
+"NH API","North Carolina",37,12.8,10.9,14.9,186
+"NH API","Michigan",26,12.7,10.9,14.7,194
+"NH API","Louisiana",22,12.5,9.4,16.3,58
+"NH API","New Hampshire",33,12.4,7.5,19.1,22
+"NH API","Ohio",39,12.3,10.4,14.5,159
+"NH API","Colorado",8,12.3,10.1,14.9,117
+"NH API","Tennessee",47,12,9.2,15.3,68
+"NH API","Massachusetts",25,12,10.6,13.5,274
+"NH API","Georgia",13,11.9,10.4,13.5,263
+"NH API","Indiana",18,11.8,9,15.2,70
+"NH API","Nevada",32,11.1,9.6,12.8,211
+"NH API","Connecticut",9,11.1,8.9,13.7,94
+"NH API","Delaware",10,10.8,6.7,16.3,23
+"NH API","Pennsylvania",42,10.7,9.4,12.2,249
+"NH API","Missouri",29,10.6,8.2,13.5,70
+"NH API","Virginia",51,10.3,9.2,11.5,320
+"NH API","Arkansas",5,9.8,6,14.9,24
+"NH API","Arizona",4,8.6,7.1,10.3,122
+"NH API","South Carolina",45,8.1,5.7,11.2,39
+"NH API","District of Columbia",11,NA,NA,NA,NA
+"NH API","Mississippi",28,NA,NA,NA,NA
+"NH API","West Virginia",54,NA,NA,NA,NA
+"NH API","Rhode Island",44,NA,NA,NA,NA
+"NH API","Vermont",50,NA,NA,NA,NA
+"NH API","Puerto Rico",72,NA,NA,NA,NA
+"NH API","Wyoming",56,NA,NA,NA,NA
+"NH API","South Dakota",46,NA,NA,NA,NA
+"NH API","North Dakota",38,NA,NA,NA,NA
+"NH API","Montana",30,NA,NA,NA,NA
+"NH API","Maine",23,NA,NA,NA,NA

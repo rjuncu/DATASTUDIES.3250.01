@@ -1,0 +1,38 @@
+"state","groups_compared","highest_race","highest_rate","lowest_race","lowest_rate","rate_diff","rate_ratio"
+"Connecticut",4,"Hispanic",22.7,"NH API",11.1,11.6,2.05
+"South Carolina",4,"NH White",16.6,"NH API",8.1,8.5,2.05
+"Arizona",5,"Hispanic",15.9,"NH API",8.6,7.3,1.85
+"Louisiana",4,"NH White",20.9,"Hispanic",11.3,9.6,1.85
+"Arkansas",5,"NH White",18,"NH API",9.8,8.2,1.84
+"Missouri",5,"NH White",19.5,"NH API",10.6,8.9,1.84
+"Oregon",5,"NH White",18,"NH Black",9.9,8.1,1.82
+"Oklahoma",5,"NH AI/AN",22.3,"Hispanic",12.4,9.9,1.8
+"Pennsylvania",4,"NH White",19.2,"NH API",10.7,8.5,1.79
+"North Carolina",5,"NH White",19.2,"NH AI/AN",10.8,8.4,1.78
+"Florida",5,"NH White",22.4,"NH API",12.9,9.5,1.74
+"New Jersey",4,"NH White",22.7,"NH API",13.1,9.6,1.73
+"Tennessee",4,"NH White",18,"Hispanic",10.6,7.4,1.7
+"Virginia",4,"NH White",17.2,"NH API",10.3,6.9,1.67
+"Delaware",4,"NH White",17.9,"NH API",10.8,7.1,1.66
+"Wisconsin",5,"NH AI/AN",21.6,"NH API",13.3,8.3,1.62
+"Iowa",4,"NH White",21.7,"NH API",13.5,8.2,1.61
+"New York",4,"NH White",22.2,"NH API",13.9,8.3,1.6
+"Massachusetts",4,"NH White",19.1,"NH API",12,7.1,1.59
+"Ohio",4,"NH White",19.6,"NH API",12.3,7.3,1.59
+"Indiana",4,"NH White",18.7,"NH API",11.8,6.9,1.58
+"Kentucky",4,"NH White",20,"Hispanic",12.7,7.3,1.57
+"Georgia",4,"NH White",18.6,"NH API",11.9,6.7,1.56
+"Minnesota",5,"NH White",22.6,"NH API",14.7,7.9,1.54
+"Michigan",5,"NH White",19.1,"NH API",12.7,6.4,1.5
+"Illinois",4,"NH White",19.9,"NH API",13.4,6.5,1.49
+"Alaska",4,"NH White",19.6,"NH API",13.3,6.3,1.47
+"Alabama",4,"NH White",15,"Hispanic",10.3,4.7,1.46
+"Maryland",4,"NH White",19,"NH API",13.1,5.9,1.45
+"Texas",5,"NH White",18.6,"NH API",13.1,5.5,1.42
+"Nevada",4,"NH White",15.4,"NH API",11.1,4.3,1.39
+"California",5,"NH White",19.3,"NH API",14.2,5.1,1.36
+"Kansas",4,"NH White",18.8,"NH Black",13.8,5,1.36
+"Washington",5,"NH AI/AN",19.8,"NH API",14.6,5.2,1.36
+"Colorado",5,"NH White",16.5,"NH AI/AN",12.3,4.2,1.34
+"Nebraska",4,"NH White",18.7,"NH Black",14,4.7,1.34
+"New Mexico",5,"NH White",14.4,"NH AI/AN",12.5,1.9,1.15
