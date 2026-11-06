@@ -6,6 +6,7 @@ My submission for DATASTUDIES.3250.01 at Washington University in St. Louis
 ### Files 
 ```glyphosate_regulations_plots```
 > This folder contains scripts, tables, and plots made from ```glyphosate_regulations.csv```
+
 > ```glyphosate_regulations.csv```
 >>  A master historical event dataset, created by compiling information from secondary sources. This includes: the U.S. Environmental Protection Agency (EPA), the International Agency for Research on Cancer (IARC), U.S. court records, the National Academies, Bayer.com, and selected stakeholder and advocacy sources such as U.S. Right to Know (USRTK).
 
@@ -15,7 +16,9 @@ My submission for DATASTUDIES.3250.01 at Washington University in St. Louis
 > ```./Subsets/```
 >> This folder contains three subsets of ```glyphosate_regulations.csv```.
 >>> ```settlment_data.txt``` contains a timeline of verdict and settlement amounts from glyphosate related law suites.
+
 >>> ```glyphosate_epa_industry_alignment.tsv``` Is a timeline of instances where the EPA discredited or did not align with the evidence presented by independent scientific institutions.
+
 >>> ```glyphosate_epa_exclusions``` contains a timeline of when the EPA chose to uphold evidence brought forth by scientific institutions. 
 
 ```US_maps```
