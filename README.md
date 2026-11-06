@@ -11,6 +11,7 @@ My submission for DATASTUDIES.3250.01 at Washington University in St. Louis
 
 > ```glyphosate_regulations_graphmaker.R```
 >> An R script that uses ggplot2 to create three visualizations stored in ```./Plots/```
+
 > ```./Subsets/```
 >> This folder contains three subsets of ```glyphosate_regulations.csv```.
 >>> ```settlment_data.txt``` contains a timeline of verdict and settlement amounts from glyphosate related law suites.
