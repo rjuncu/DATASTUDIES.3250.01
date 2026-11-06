@@ -8,6 +8,7 @@ My submission for DATASTUDIES.3250.01 at Washington University in St. Louis
 > This folder contains scripts, tables, and plots made from ```glyphosate_regulations.csv```
 > ```glyphosate_regulations.csv```
 >>  A master historical event dataset, created by compiling information from secondary sources. This includes: the U.S. Environmental Protection Agency (EPA), the International Agency for Research on Cancer (IARC), U.S. court records, the National Academies, Bayer.com, and selected stakeholder and advocacy sources such as U.S. Right to Know (USRTK).
+
 > ```glyphosate_regulations_graphmaker.R```
 >> An R script that uses ggplot2 to create three visualizations stored in ```./Plots/```
 > ```./Subsets/```
