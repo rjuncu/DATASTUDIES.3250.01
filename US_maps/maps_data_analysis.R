@@ -16,13 +16,13 @@ setwd("./US_maps_data/")
 # The rows were selected for Compound = Glyphosate, summed by crop, and summed 1,200 rows <- 48 states * 25 years
 # Then the glyphosate amounts were divided by 2020 census data to achieve "per capita" units similar to NHL data
 # The NHL cancer by race data was taken from NHL cancer atlas interactive map tool 
-glyphosate_usage <- read.csv("./glyphosate_2016_merged_nhl.csv")
-general_pop <- read.csv("./Incidence_US_by_State_All_Races_Non-Hodgkin_Lymphoma_(Both_Sexes)_2018_-_2022.csv")
-population_black <- read.csv("./Incidence_US_by_State_Non-Hispanic_Black_Non-Hodgkin_Lymphoma_(Both_Sexes)_2018_-_2022.csv")
-population_hispanic <- read.csv("./Incidence_US_by_State_Hispanic_Non-Hodgkin_Lymphoma_(Both_Sexes)_2018_-_2022.csv")
-population_native <- read.csv("./Incidence_US_by_State_Non-Hispanic_American_Indian_Alaskan_Native_Non-Hodgkin_Lymphoma_(Both_Sexes)_2018_-_2022.csv")
-population_white <- read.csv("./Incidence_US_by_State_Non-Hispanic_White_Non-Hodgkin_Lymphoma_(Both_Sexes)_2018_-_2022.csv")
-population_asian <- read.csv("./Incidence_US_by_State_Non-Hispanic_Asian_Pacific_Islander_Non-Hodgkin_Lymphoma_(Both_Sexes)_2018_-_2022.csv")
+glyphosate_usage <- read.csv("./US_maps/US_maps_data/glyphosate_2016_merged_nhl.csv")
+general_pop <- read.csv("./US_maps/US_maps_data/Incidence_US_by_State_All_Races_Non-Hodgkin_Lymphoma_(Both_Sexes)_2018_-_2022.csv")
+population_black <- read.csv("./US_maps/US_maps_data/Incidence_US_by_State_Non-Hispanic_Black_Non-Hodgkin_Lymphoma_(Both_Sexes)_2018_-_2022.csv")
+population_hispanic <- read.csv("./US_maps/US_maps_data/Incidence_US_by_State_Hispanic_Non-Hodgkin_Lymphoma_(Both_Sexes)_2018_-_2022.csv")
+population_native <- read.csv("./US_maps/US_maps_data/Incidence_US_by_State_Non-Hispanic_American_Indian_Alaskan_Native_Non-Hodgkin_Lymphoma_(Both_Sexes)_2018_-_2022.csv")
+population_white <- read.csv("./US_maps/US_maps_data/Incidence_US_by_State_Non-Hispanic_White_Non-Hodgkin_Lymphoma_(Both_Sexes)_2018_-_2022.csv")
+population_asian <- read.csv("./US_maps/US_maps_data/Incidence_US_by_State_Non-Hispanic_Asian_Pacific_Islander_Non-Hodgkin_Lymphoma_(Both_Sexes)_2018_-_2022.csv")
 
 head(general_pop)
 
@@ -71,9 +71,13 @@ master_data <- master_data %>%
       ~ as.numeric(na_if(as.character(.x), "No Data/Suppressed"))
     )
   )
+head(master_data)
 
+long <- do.call(rbind, lapply(c("Glyphosate_kg_per_100k","General_pop","White_pop","Black_pop","Hispanic_pop","Asian_pop","Native_pop"), function(v) data.frame(Variable = v, Area = master_data$Area, Rate = master_data[[v]]))) %>% filter(!is.na(Rate)) %>% group_by(Variable) %>% arrange(Variable, desc(Rate)) %>% mutate(rank = row_number()) %>% filter(rank <= 10) %>% ungroup()
+top5 <- do.call(cbind, lapply(split(long, long$Variable), function(d) paste0(1:5, ". ", d$Area[1:5], " (", d$Rate[1:5], ")")))
+write.table(as.data.frame(top5), "./top5.tsv", row.names = FALSE)
 
-# GRAPH 1: TOP 10 STATES BY CANCER INCIDENCE
+# GRAPH 1: TOP 25 STATES BY CANCER INCIDENCE
 # Select the six population incidence variables
 population_long <- master_data %>%
   select(
@@ -103,7 +107,7 @@ top_population_states <- population_long %>%
   ungroup()
 
 # Plot all populations together in ONE graph
-ggplot(
+top25 <- ggplot(
   top_population_states,
   aes(
     x = Incidence,
@@ -112,13 +116,14 @@ ggplot(
   )
 ) +
   geom_col(position = "dodge") +
+#  facet_wrap(~ Population, scales = "free", ncol = 2) +
+
   theme_minimal() +
   theme(
-    axis.text.y = element_text(size = 8),
-    legend.position = "right"
-  ) +
+    axis.text.y = element_text(size = 16),
+    legend.position = "right"  ) +
   labs(
-    title = "Top 10 States by Non-Hodgkin Lymphoma Incidence",
+    title = "Top 25 States by Non-Hodgkin Lymphoma Incidence",
     subtitle = "Age-adjusted incidence rates by population group, 2018–2022",
     x = "Incidence Rate per 100,000",
     y = "State",
@@ -149,17 +154,22 @@ ggplot(
 ) +
   geom_col(fill = "darkolivegreen3") +
   theme_minimal() +
+  theme(
+    axis.text.y = element_text(size = 16),
+    axis.text.x = element_text(size = 16)
+    )+
   labs(
     title = "Top 15 States by Glyphosate Usage",
     subtitle = "Glyphosate use per 100,000 people",
     x = "Glyphosate (kg per 100,000)",
     y = "State"
-  )
+  ) 
 
 
 
 
-
+ggsave("top_25_NHL.png", top25,
+       width = 11, height = 6, dpi = 300)
 
 
 

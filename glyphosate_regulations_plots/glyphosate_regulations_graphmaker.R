@@ -8,25 +8,25 @@ library(ggplot2)
 library(scales)
 
 list.files()
-legal_data <- read_tsv("./settlment_data.txt")
+legal_data <- read.csv("./glyphosate_regulations_plots/subsets/settlment_data.txt")
 
 # Create a proper date variable for plotting
 legal_data <- legal_data %>%
   mutate(
     Date = as.Date(sprintf("%d-%02d-01", Year, Month)),
-#    Amount_Billions = Amount_USD / 1e9
+#    Amount_USD = Amount_USD/(10^6)
   )
-head(input_data)
+head(legal_data)
 
-# ----------------------------------------
-# 2. Plot 1: Individual legal events over time
+
+# Plot 1: Individual legal events over time
 # ----------------------------------------
 
 plot_timeline <- ggplot(
   legal_data,
   aes(x = Date, y = Amount_USD, color = Type)
 ) +
-  geom_point(size = 3.5, alpha = 0.85) +
+  geom_point(size = 5, alpha = 0.85) +
   scale_y_continuous(
     labels = label_dollar(scale=1)
   ) +
@@ -41,10 +41,10 @@ plot_timeline <- ggplot(
     title = "Roundup/Glyphosate Legal Awards Over Time",
     subtitle = "Reported verdicts, settlements, and final judgments",
     x = "Date",
-    y = "Amount (USD)",
+    y = "USD Amount (Millions)",
     color = "Legal event type"
   ) +
-  theme_minimal(base_size = 12) +
+  theme_minimal(base_size = 15) +
   theme(
     plot.title = element_text(face = "bold"),
     legend.position = "bottom"
@@ -52,8 +52,8 @@ plot_timeline <- ggplot(
 
 print(plot_timeline)
 
-# ----------------------------------------
-# 3. Plot 2: Total amount by year
+
+# Plot 2: Total amount by year
 # ----------------------------------------
 
 yearly_totals <- legal_data %>%
@@ -71,20 +71,20 @@ plot_yearly <- ggplot(
   geom_col(fill = "steelblue") +
   geom_text(
     aes(label = label_dollar(
-      scale = 1e-9, suffix = "B", accuracy = 0.01
+      suffix = "M", accuracy = 0.01
     )(Total_USD)),
     vjust = -0.4,
     size = 3.5
   ) +
   scale_y_continuous(
-    labels = label_dollar(scale = 1e-9, suffix = "B"),
+    labels = label_dollar(suffix = "M"),
     expand = expansion(mult = c(0, 0.15))
   ) +
   labs(
     title = "Reported Legal Amounts by Year",
     subtitle = "Sum of the listed events in each year",
     x = "Year",
-    y = "Total reported amount (USD)"
+    y = "Total Reported USD Amount (Millions)"
   ) +
   theme_minimal(base_size = 12) +
   theme(
@@ -93,8 +93,8 @@ plot_yearly <- ggplot(
 
 print(plot_yearly)
 
-# ----------------------------------------
-# 4. Plot 3: Top 10 largest events
+
+# Plot 3: Top 10 largest events
 # ----------------------------------------
 
 top_10_cases <- legal_data %>%
@@ -114,7 +114,7 @@ plot_top_10 <- ggplot(
 ) +
   geom_col() +
   scale_x_continuous(
-    labels = label_dollar(scale = 1e-9, suffix = "B"),
+    labels = label_dollar( suffix = "M"),
     expand = expansion(mult = c(0, 0.12))
   ) +
   scale_fill_manual(
@@ -130,7 +130,7 @@ plot_top_10 <- ggplot(
     y = NULL,
     fill = "Legal event type"
   ) +
-  theme_minimal(base_size = 11) +
+  theme_minimal(base_size = 19) +
   theme(
     plot.title = element_text(face = "bold"),
     legend.position = "bottom"

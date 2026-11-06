@@ -1,4 +1,4 @@
-Year,Month,Case,Type,Amount_USD_M
+Year,Month,Case,Type,Amount_USD
 1996,11,NY AG Assurance of Discontinuance,Settlement,0.05
 2007,1,Monsanto France false-advertising conviction,Verdict,0.03
 2018,8,Johnson v. Monsanto,Verdict,289
@@ -11,10 +11,10 @@ Year,Month,Case,Type,Amount_USD_M
 2022,6,Hardeman cert denied (final judgment),Final judgment,25
 2023,10,Durnell v. Monsanto,Verdict,1
 2023,10,St. Louis verdict (name TBD),Verdict,125
-2023,10,Philadelphia verdict (Oct),Verdict,175
-2023,10,California verdict (Oct 31),Verdict,332
+2023,10,Philadelphia verdict,Verdict,175
+2023,10,California verdict,Verdict,332
 2023,11,Anderson v. Monsanto,Verdict,1561
-2023,12,Philadelphia verdict (Dec),Verdict,3.5
+2023,12,Philadelphia verdict,Verdict,3.5
 2024,1,McKivison v. Monsanto,Verdict,2250
 2025,3,Barnes v. Monsanto,Verdict,2065
 2026,2,King v. Monsanto class settlement,Settlement,7250
