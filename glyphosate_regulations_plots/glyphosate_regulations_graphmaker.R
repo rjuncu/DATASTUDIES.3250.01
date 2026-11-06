@@ -138,8 +138,7 @@ plot_top_10 <- ggplot(
 
 print(plot_top_10)
 
-# ----------------------------------------
-# 5. Optional: Save the plots
+# Save the plots
 # ----------------------------------------
 
 ggsave("legal_timeline.png", plot_timeline,
