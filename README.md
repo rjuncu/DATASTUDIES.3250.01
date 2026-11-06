@@ -4,7 +4,7 @@ My submission for DATASTUDIES.3250.01 at Washington University in St. Louis
 ## How have scientific evidence, legal decisions, and stakeholder interests interacted with regulatory actions to shape U.S. glyphosate regulation over time? 
 
 ### Files 
-```glyphosate_regulations_plots```
+```./glyphosate_regulations_plots/```
 > This folder contains scripts, tables, and plots made from ```glyphosate_regulations.csv```
 
 > ```glyphosate_regulations.csv```
@@ -19,11 +19,16 @@ My submission for DATASTUDIES.3250.01 at Washington University in St. Louis
 
 >>> ```glyphosate_epa_industry_alignment.tsv``` Is a timeline of instances where the EPA discredited or did not align with the evidence presented by independent scientific institutions.
 
->>> ```glyphosate_epa_exclusions``` contains a timeline of when the EPA chose to uphold evidence brought forth by scientific institutions. 
+>>> ```glyphosate_epa_exclusions.tsv``` contains a timeline of when the EPA chose to uphold evidence brought forth by scientific institutions. 
 
-```US_maps```
-> ```maps.csv```
+```./US_maps/```
+> This folder contains scripts, tables, and maps created from ```maps.csv```
+
+> ```./US_maps/US_maps_data/```
+
+>>```maps.csv```
 >> A dataset containing citations of images from the National Cancer Institute GIS Portal for Cancer Research. Images regarding demographic specific instances of NHL were fed into a gif, to better visualize comparative regional changes of NHL development in populations separated by race.
+>> The rest of the files in this folder contain .csv tables of data described in the maps. 
 
 ```advertisements.csv```
 > A dataset containing advertisement image citations regarding glyphosate, which were also created into a gif. These advertisements include local billboards, legal counseling ads paid to appear after specific google searches, traditional television advertisements, and pictures of the physical product on shelves.
