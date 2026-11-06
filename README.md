@@ -21,6 +21,7 @@ My submission for DATASTUDIES.3250.01 at Washington University in St. Louis
 
 >>> ```glyphosate_epa_exclusions.tsv``` contains a timeline of when the EPA chose to uphold evidence brought forth by scientific institutions. 
 
+
 ```./US_maps/```
 > This folder contains scripts, tables, and maps created from ```maps.csv```
 
@@ -29,6 +30,10 @@ My submission for DATASTUDIES.3250.01 at Washington University in St. Louis
 >>```maps.csv```
 >> A dataset containing citations of images from the National Cancer Institute GIS Portal for Cancer Research. Images regarding demographic specific instances of NHL were fed into a gif, to better visualize comparative regional changes of NHL development in populations separated by race.
 >> The rest of the files in this folder contain .csv tables of data described in the maps. 
+
+>> ```./maps/```
+>>> This folder contains maps and and R script that cleans and joins map table data into plots. These plots are stored in ```./US_maps_data/plots/```
+
 
 ```advertisements.csv```
 > A dataset containing advertisement image citations regarding glyphosate, which were also created into a gif. These advertisements include local billboards, legal counseling ads paid to appear after specific google searches, traditional television advertisements, and pictures of the physical product on shelves.
