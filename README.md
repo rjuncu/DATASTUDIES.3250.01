@@ -4,8 +4,8 @@ My submission for DATASTUDIES.3250.01 at Washington University in St. Louis
 ## How have scientific evidence, legal decisions, and stakeholder interests interacted with regulatory actions to shape U.S. glyphosate regulation over time? 
 
 ### Files 
-```glyphosate_regulations.csv```
->  A master historical event dataset, created by compiling information from primary and authoritative sources. This includes: the U.S. Environmental Protection Agency (EPA), the International Agency for Research on Cancer (IARC), U.S. court records, the National Academies, and selected stakeholder and advocacy sources such as U.S. Right to Know (USRTK).
+> ```glyphosate_regulations.csv```
+>>  A master historical event dataset, created by compiling information from primary and authoritative sources. This includes: the U.S. Environmental Protection Agency (EPA), the International Agency for Research on Cancer (IARC), U.S. court records, the National Academies, and selected stakeholder and advocacy sources such as U.S. Right to Know (USRTK).
 
 ```maps.csv```
 > A dataset containing citations of images from the National Cancer Institute GIS Portal for Cancer Research. Images regarding demographic specific instances of NHL were fed into a gif, to better visualize comparative regional changes of NHL development in populations separated by race.
